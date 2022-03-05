@@ -1,0 +1,41 @@
+html,
+body,
+.quizbox {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.quizbox {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    padding: 10px;
+    padding-top: 0px;
+    color: lime;
+
+}
+
+.quizstage {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quizstage-header {
+    padding: 10px;
+    padding-top: 0px;
+    color: lime;
+}
+
+.questionprop {
+    
+}
