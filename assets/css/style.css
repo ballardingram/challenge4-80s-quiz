@@ -1,6 +1,6 @@
 html,
 body,
-.quizbox {
+.quizhouse {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     background-color: black;
 }
 
-.quizbox {
+.quiztitle {
     padding-top: 25px;
     padding-left: 20px;
     padding-right: 20px;
@@ -20,22 +20,29 @@ body {
 header {
     padding: 10px;
     padding-top: 0px;
-    color: lime;
+    color:gold;
 
 }
 
-.quizstage {
+.quiz-container {
     padding-top: 25px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.quizstage-header {
+.quiz-card {
     padding: 10px;
     padding-top: 0px;
-    color: lime;
+    color: gold;
 }
 
-.questionprop {
+.questionbox {
+    border: dashed gold;
+    width: 750px;
+    padding: 10px;
+    margin: 0;
+}
+
+.quizq {
     
 }
