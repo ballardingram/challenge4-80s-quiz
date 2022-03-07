@@ -17,15 +17,21 @@
         </header>
             <h2>Instructions:</h2>
             <p>Answer the questions below by selecting the appropriate state as the answer.</p>
-            
+            <br>
+            <button onclick="move(), setTimeout(myQuestions,3000)" id="showQuiz">Click to Begin</button><br>
             <div id="quizprogress">
-                <div id=""
-    </div>
+                <div id="progressbar">Loading...
+                </div>
+                <div id="quiz"></div>
+            </div>
+    
+        </div>        
 
     <div class="topnav">
         <ul>
             <li>Scoreboard</li><br>
-            <li>Reset Quiz</li>
+            <li>Reset Quiz</li><br>
+            <li><label id="minutes">00</label>:<label id="seconds">00</label></li>
         </ul>
     </div>
 
