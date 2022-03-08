@@ -1,16 +1,10 @@
 *, *::before,  *::after {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;;
-}
-
-:root {
-    --hue-neutral: 210;
-    --hue-wrong: 0;
-    --hue-correct: 145;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-    --hue: var(--hue-neutral);
+    color: gold;
     padding: 0;
     margin:0 ;
     display: flex;
@@ -18,15 +12,10 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue),100%, 20%);
-}
-
-body.correct {
---hue: var(--hue-correct)
-}
-
-body.wrong {
- --hue: var(--hue-wrong)   
+    background-image: url("https://i.postimg.cc/gc37H4zc/9-BE51050-A16-E-4-BD9-A280-66-C65-A603498.gif");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: black;
 }
 
 .container {
@@ -44,7 +33,6 @@ body.wrong {
 }
 
 .btn {
-    --hue: var(--hue-neutral);
     border: 1px dashed gold;
     background-color: black;
     color: gold;
@@ -56,13 +44,16 @@ body.wrong {
     border-style: solid;
 }
 
-.btn-correct {
-    --hue: var(--hue-correct);
+.btn.correct {
+   border-color: lime;
+   border-style: solid;
 }
 
-.btn-wrong {
-    --hue: var(--hue-wrong);
+.btn.wrong {
+    border-color: red;
+    border-style: solid;
 }
+
 .start-btn, .next-btn {
     font-size: 1.5;
     font-weight: bold;
@@ -77,8 +68,4 @@ body.wrong {
 
 .hide {
     display: none;
-}
-
-.question {
-    color: gold;
 }
