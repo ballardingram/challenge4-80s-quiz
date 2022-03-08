@@ -1,0 +1,84 @@
+*, *::before,  *::after {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;;
+}
+
+:root {
+    --hue-neutral: 210;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+body {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin:0 ;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(var(--hue),100%, 20%);
+}
+
+body.correct {
+--hue: var(--hue-correct)
+}
+
+body.wrong {
+ --hue: var(--hue-wrong)   
+}
+
+.container {
+   width: 800px;
+   max-width: 80%;
+   background-color:black;
+   padding: 10px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.btn {
+    --hue: var(--hue-neutral);
+    border: 1px dashed gold;
+    background-color: black;
+    color: gold;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    border-color: white;
+    border-style: solid;
+}
+
+.btn-correct {
+    --hue: var(--hue-correct);
+}
+
+.btn-wrong {
+    --hue: var(--hue-wrong);
+}
+.start-btn, .next-btn {
+    font-size: 1.5;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.question {
+    color: gold;
+}

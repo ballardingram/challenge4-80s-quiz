@@ -11,29 +11,22 @@
 </head>
 
 <body>
-    <div class="quizheader">
-        <header>
-            <h1>U.S. States Quiz!</h1>
-        </header>
-            <h2>Instructions:</h2>
-            <p>Answer the questions below by selecting the appropriate state as the answer.</p>
-            <br>
-            <button onclick="move(), setTimeout(myQuestions,3000)" id="showQuiz">Click to Begin</button><br>
-            <div id="quizprogress">
-                <div id="progressbar">Loading...
-                </div>
-                <div id="quiz"></div>
-            </div>
-    
-        </div>        
-
-    <div class="topnav">
-        <ul>
-            <li>Scoreboard</li><br>
-            <li>Reset Quiz</li><br>
-            <li><label id="minutes">00</label>:<label id="seconds">00</label></li>
-        </ul>
+<div class="container">
+    <div id="question-container" class="hide">
+    <div id="question">Question</div>
+    <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+     </div>
     </div>
+
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+</div>
 
 <script src="./assets/js/script.js"></script>
 </body>
