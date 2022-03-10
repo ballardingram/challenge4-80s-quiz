@@ -11,13 +11,13 @@
 .jumbotron {
     background-color: black;
     color: gold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'VT323', monospace;
 }
 
 body {
     background-color: black;
     color: gold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'VT323', monospace;
     background-image: url(https://www.photofunky.net/output/image/a/3/5/9/a359ee/photofunky.gif);
     background-repeat: no-repeat;
     background-position: center;
