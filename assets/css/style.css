@@ -54,7 +54,7 @@ body {
     border-style: solid;
 }
 
-.start-btn, .next-btn {
+.start-btn, .next-btn, .timer-btn {
     font-size: 1.5;
     font-weight: bold;
     padding: 10px 20px;
@@ -68,4 +68,11 @@ body {
 
 .hide {
     display: none;
+}
+
+.timer-container {
+    width: 50px;
+    max-width: 25%;
+    background-color: goldenrod;
+    padding: 10px;
 }
