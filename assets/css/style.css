@@ -1,78 +1,33 @@
-*, *::before,  *::after {
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+#welcome, #quiz, #inputScore, #highScores {
+    width: 70%;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+#quiz, #inputScore, #highScores {
+    display: none;
+    background-color: black;
+}
+
+.jumbotron {
+    background-color: black;
+    color: gold;
 }
 
 body {
-    color: gold;
-    padding: 0;
-    margin:0 ;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://i.postimg.cc/gc37H4zc/9-BE51050-A16-E-4-BD9-A280-66-C65-A603498.gif");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-color: black;
-}
-
-.container {
-   width: 800px;
-   max-width: 80%;
-   background-color:black;
-   padding: 10px;
-}
-
-.btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 5px;
-    margin: 20px 0;
-}
-
-.btn {
-    border: 1px dashed gold;
     background-color: black;
     color: gold;
-    padding: 5px 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button, .btn {
+    background-color: black;
+    border: dashed 2px gold;
+    color: gold;
+    padding: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .btn:hover {
-    border-color: white;
-    border-style: solid;
-}
-
-.btn.correct {
-   border-color: lime;
-   border-style: solid;
-}
-
-.btn.wrong {
-    border-color: red;
-    border-style: solid;
-}
-
-.start-btn, .next-btn, .timer-btn {
-    font-size: 1.5;
-    font-weight: bold;
-    padding: 10px 20px;
-}
-
-.controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hide {
-    display: none;
-}
-
-.timer-container {
-    width: 50px;
-    max-width: 25%;
-    background-color: goldenrod;
-    padding: 10px;
+    border: solid 2px white;
 }
