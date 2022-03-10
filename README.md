@@ -20,4 +20,22 @@ The math for the questions and the timer. That is something I am going to need a
 ## Product Images
 
 ### Preview of the Site
-! [Preview of the Site] ()
+![Preview of the Site](https://github.com/ballardingram/challenge4-80s-quiz/blob/main/assets/images/readme0.gif)
+
+### Welcome Page
+![Welcome Page](https://github.com/ballardingram/challenge4-80s-quiz/blob/main/assets/images/readme1.jpg)
+
+### Questions
+![Questions and Answers](https://github.com/ballardingram/challenge4-80s-quiz/blob/main/assets/images/readme2.jpg)
+
+### Correct Answer
+![Correct Answer](https://github.com/ballardingram/challenge4-80s-quiz/blob/main/assets/images/readme3.jpg)
+
+### Wrong Answer
+![Wrong Answer](https://github.com/ballardingram/challenge4-80s-quiz/blob/main/assets/images/readme4.jpg)
+
+### Final Score
+![Final Score](https://github.com/ballardingram/challenge4-80s-quiz/blob/main/assets/images/readme5.jpg)
+
+### Scoreboard
+![Scoreboard](https://github.com/ballardingram/challenge4-80s-quiz/blob/main/assets/images/readme6.jpg)
