@@ -1,33 +1,37 @@
 #welcome, #quiz, #inputScore, #highScores {
     width: 70%;
-    text-align: center;
-    padding: 2.5rem;
 }
 
 #quiz, #inputScore, #highScores {
     display: none;
     background-color: black;
+    color: gold;
 }
 
 .jumbotron {
     background-color: black;
     color: gold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     background-color: black;
     color: gold;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://www.photofunky.net/output/image/a/3/5/9/a359ee/photofunky.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 350px;
+
 }
 
-.button, .btn {
+.btn {
     background-color: black;
-    border: dashed 2px gold;
+    border: dashed 2px goldenrod;
     color: gold;
-    padding: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .btn:hover {
+    background-color: black;
     border: solid 2px white;
 }
